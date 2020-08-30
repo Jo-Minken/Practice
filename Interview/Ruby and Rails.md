@@ -210,7 +210,7 @@ These questions are collected from the Internet.
 - What is RubyGems? How does it work?
 - How can you build your own Ruby gem?
 - Explain the structure of a Ruby gem.
-- Can you give me some examples of your favorite gems besides Ruby on Rails?
+- Can you give me some examples of your favorite gems besides Ruby on Rails?<br>
   [57 Best Ruby Gems We Use at RubyGarage](https://rubygarage.org/blog/best-ruby-gems-we-use)
 
 ## Rails and Web development
