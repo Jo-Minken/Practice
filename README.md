@@ -2,9 +2,9 @@
 My playground to record the practices of coding.
 
 - sorting
-  - [bubble sort](https://github.com/Jo-Minken/Practice/blob/master/sorting/01%20bubble%20sort.py)
-  - [selection sort](https://github.com/Jo-Minken/Practice/blob/master/sorting/02%20selection%20sort.py)
-  - [insertion sort](https://github.com/Jo-Minken/Practice/blob/master/sorting/03%20insertion%20sort.py)
+  - [bubble sort（バブルソート、基本交換法、隣接交換法）](https://github.com/Jo-Minken/Practice/blob/master/sorting/01%20bubble%20sort.py)
+  - [selection sort（選択ソート、基本選択法）](https://github.com/Jo-Minken/Practice/blob/master/sorting/02%20selection%20sort.py)
+  - [insertion sort（挿入ソート、基本挿入法）](https://github.com/Jo-Minken/Practice/blob/master/sorting/03%20insertion%20sort.py)
 - Python
   - [pangram string check](https://github.com/Jo-Minken/Practice/blob/master/Python/pangram.py)
   - [palindrome string check](https://github.com/Jo-Minken/Practice/blob/master/Python/palindrome%20check.py)
