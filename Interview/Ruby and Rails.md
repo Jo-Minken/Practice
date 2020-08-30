@@ -170,14 +170,14 @@ These questions are collected from the Internet.
   
 - What is the difference between select, map, and collect?
   
-  - `select`: Is used to grab a subset of a collection. Calling `.select!` with a bang mutates the original collection.
+  - `select`: Is used to grab a subset of a collection. Calling `.select!` with a bang mutates the original collection.<br>
     ```ruby
     i = [1,2,3,4,5]
     i.select {|x| x % 2 == 0}
     # => [2, 4]
-  ```
+    ```
   
-  - `map`: Performs an action on each element of a collection and outputs an updated collection. Calling `.map!` with a bang mutates the original collection.
+  - `map`: Performs an action on each element of a collection and outputs an updated collection. Calling `.map!` with a bang mutates the original collection.<br>
   
     ```ruby
     i = [1,2,3,4,5]
