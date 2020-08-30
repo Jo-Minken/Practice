@@ -3,14 +3,10 @@ These questions are collected from the Internet.
 
 ## References
 
-- How to Interview Your Ruby on Rails Developer
-  https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
-- 53 Ruby on Rails Interview Questions and Answers
-  https://medium.com/better-programming/53-ruby-on-rails-interview-questions-and-answers-eb99eed1aeb7
-- Top 53 Ruby on Rails Interview Questions & Answers
-  https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
-- Ruby on Rails Interview Questions for Experienced
-  https://blog.interviewmocha.com/ruby-on-rails-interview-questions-for-experienced
+- [How to Interview Your Ruby on Rails Developer](https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer)
+- [53 Ruby on Rails Interview Questions and Answers](https://medium.com/better-programming/53-ruby-on-rails-interview-questions-and-answers-eb99eed1aeb7)
+- [Top 53 Ruby on Rails Interview Questions & Answers](https://career.guru99.com/top-34-ruby-on-rail-interview-questions/)
+- [Ruby on Rails Interview Questions for Experienced](https://blog.interviewmocha.com/ruby-on-rails-interview-questions-for-experienced)
 
 ## Ruby
 
@@ -351,65 +347,36 @@ These questions are collected from the Internet.
 # Ruby on Rails Developer Skills
 
 ## Entry Level
+- Create and setup a Rails environment
+- Use generators to create models, controllers, and migrations
+- Create and use a migration to manage the database
+- Create a unit test using rspec/etc
+- Create a model and basic validations
+- Handle a GET request using a Controller, Model, and View
+- Handle a POST request using a Controller, Model, and View
+- Basic HTML, CSS and JavaScript
+- Basic GIT - clone, commit, push.
+- MYSQL
+- Linux Administration
+- Agile Methodology
 
-Create and setup a Rails environment
+## Mid-level
+- Setup and deploy a Rails App for production
+- Understand the Rails stack - callbacks, filters, plug-ins, engines, gems, rack
+- Understand and use Active Record associations
+- Understand and use scopes to define model abstractions
+- Define tests using Cucumber and rSpec
+- Understand and use Object Orientation
+- Understand and use Design Patterns (explain what they are, know some basic patterns)
+- Linux Administration
+- Agile Methodology
 
-Use generators to create models, controllers, and migrations
-
-Create and use a migration to manage the database
-
-Create a unit test using rspec/etc
-
-Create a model and basic validations
-
-Handle a GET request using a Controller, Model, and View
-
-Handle a POST request using a Controller, Model, and View
-
-Basic HTML, CSS and JavaScript
-
-Basic GIT - clone, commit, push.
-
-MYSQL
-
-Linux Administration
-
-Agile Methodology
-
-##Mid-level
-
-Setup and deploy a Rails App for production
-
-Understand the Rails stack - callbacks, filters, plug-ins, engines, gems, rack
-
-Understand and use Active Record associations
-
-Understand and use scopes to define model abstractions
-
-Define tests using Cucumber and rSpec
-
-Understand and use Object Orientation
-
-Understand and use Design Patterns (explain what they are, know some basic patterns)
-
-Linux Administration
-
-Agile Methodology
-
-##Senior
-
-Analyze and profile an application for performance and memory issues
-
-Analyzes and profile an application for security issues
-
-Understand database modeling and query analysis
-
-Tune a production deployment (Passenger, Thin, Apache etc)
-
-Understand and use Ruby metaprogramming
-
-Mentoring skills
-
-Communication skills
-
-Planning and Estimation
+## Senior
+- Analyze and profile an application for performance and memory issues
+- Analyzes and profile an application for security issues
+- Understand database modeling and query analysis
+- Tune a production deployment (Passenger, Thin, Apache etc)
+- Understand and use Ruby metaprogramming
+- Mentoring skills
+- Communication skills
+- Planning and Estimation
