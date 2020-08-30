@@ -14,13 +14,13 @@ These questions are collected from the Internet.
 
 - What is a class?
 
-- What is the difference between a class and a module?
+- What is the difference between a class and a module?<br>
   A class has attributes and methods. You can create an instance of a class.
   A module is just a collection of methods and constants, which you can mixin with another module or class.
 
 - What is an object?
 
-- How would you declare and use a constructor in Ruby?
+- How would you declare and use a constructor in Ruby?<br>
   A constructor is defined via an initialize method which is called when a new instance of a class is initialized. Defining this method is not required. It’s often used to provide attribute values on new instances.
 
 - How would you create getter and setter methods in Ruby?
@@ -31,8 +31,8 @@ These questions are collected from the Internet.
   - Ruby Class variables begin with — **@@**
   - Ruby Global variables begin with — **$**
 
-- What is the difference between class methods and instance methods?
-  Class methods are available on classes, and instance methods are available on instances (of course).They are typically used for different purposes.
+- What is the difference between class methods and instance methods?<br>
+  Class methods are available on classes, and instance methods are available on instances (of course).They are typically used for different purposes.<br>
   Class methods are denoted by `def self.method_name`.
 
 - What are the three levels of method access control for classes and what do they signify?
@@ -41,9 +41,9 @@ These questions are collected from the Internet.
   - `protected`: Only the class that defined the method and its subclasses can call the method.
   - `private`: Only the object itself can call this method.
 
-- What does "**self**" mean?
-  Use self when defining and calling class methods.
-  In a class, self refers to the current class so it’s required when a class method calls another class method.
+- What does "**self**" mean?<br>
+  Use self when defining and calling class methods.<br>
+  In a class, self refers to the current class so it’s required when a class method calls another class method.<br>
   self.class.method is required when an instance calls a class method.
 
 - Explain how (almost) everything is an object in Ruby.
@@ -54,18 +54,17 @@ These questions are collected from the Internet.
 
 - Describe available Ruby callbacks. How can we use them in practice?
 
-- What is a block in Ruby?
-  A block is the code between two braces, `{…}`, or between `do` and `end`. You’re passing a block every time you call `.each`.
-
-  Blocks have their own scope and variables only defined inside a block are not accessible outside. But variables defined outside a block can be modified inside a block.
+- What is a block in Ruby?<br>
+  A block is the code between two braces, `{…}`, or between `do` and `end`. <br>You’re passing a block every time you call `.each`.<br>
+  Blocks have their own scope and variables only defined inside a block are not accessible outside. But variables defined outside a block can be modified inside a block.<br>
 
   ```ruby
   {|x| puts x} # a block
   ```
 
-- What is the difference between Proc and lambda?
-  Both procs and lambdas are stored blocks but syntax and behavior differs slightly.
-  A lambda returns from itself but a proc returns from the method it’s inside.
+- What is the difference between Proc and lambda?<br>
+  Both procs and lambdas are stored blocks but syntax and behavior differs slightly.<br>
+  A lambda returns from itself but a proc returns from the method it’s inside.<br>
 
   ```ruby
   def method_proc
@@ -82,8 +81,8 @@ These questions are collected from the Internet.
   puts method_lambda # => 2
   ```
 
-- What is yield in Ruby?
-  yield accesses a block passed to a method. It’s typically used in layout files in a Rails application.
+- What is yield in Ruby?<br>
+  yield accesses a block passed to a method. It’s typically used in layout files in a Rails application.<br>
 
   ```ruby
   def puts_stuff
@@ -99,14 +98,14 @@ These questions are collected from the Internet.
   # => its me
   ```
 
-- What is the difference between Hash and JSON?
-  `Hash` is a Ruby class, a collection of key/value pairs that allows accessing values by keys.
+- What is the difference between Hash and JSON?<br>
+  - `Hash` is a Ruby class, a collection of key/value pairs that allows accessing values by keys.
 
-  `JSON` is a string in a specific format for sending data.
+  - `JSON` is a string in a specific format for sending data.
 
-- What is the splat operator?
-  Splat is used when you don’t want to specify the number of arguments passed to a method in advance. Ruby has two splat operators, the single splat and double splat.
-  The single splat works as you’d expect:
+- What is the splat operator?<br>
+  Splat is used when you don’t want to specify the number of arguments passed to a method in advance. Ruby has two splat operators, the single splat and double splat.<br>
+  The single splat works as you’d expect:<br>
 
   ```ruby
   def do_sth(*input)
@@ -132,13 +131,12 @@ These questions are collected from the Internet.
 
 - What is [SOLID Principles](https://itnext.io/solid-principles-explanation-and-examples-715b975dcad4) ?
 
-- Does Ruby allow multiple inheritances?
+- Does Ruby allow multiple inheritances?<br>
   Ruby does not allow inheriting from more than one parent class, but it does allow module mixins with include and extend.
 
-- What is the difference between include and extend?
-  Both are mixins that allow injecting code from another module.
-  
-  But `include` allows accessing that code via class methods, while `extend` allows accessing that code via instance methods.
+- What is the difference between include and extend?<br>
+  Both are mixins that allow injecting code from another module.<br>
+  But `include` allows accessing that code via class methods, while `extend` allows accessing that code via instance methods.<br>
   
   ```ruby
   module Greetings
@@ -164,8 +162,8 @@ These questions are collected from the Internet.
   # => bye
   ```
 
-- What is the difference between load and require?
-  load runs another file, even if it’s already in memory.
+- What is the difference between load and require?<br>
+  load runs another file, even if it’s already in memory.<br>
   require will only run another file once, no matter how many times you require it.
   
 - What is the purpose of load, auto_load, and require_relative in Ruby?
@@ -189,10 +187,10 @@ These questions are collected from the Internet.
     
   - `collect`: Is an alias of `.map` and does the same thing.
   
-- Mention what the difference is between false and nil in Ruby?
+- Mention what the difference is between false and nil in Ruby?<br>
   False indicates a Boolean datatype, while Nil is not a data type, it have an object_id 4.
 
-- Mention what is the difference between String and Symbol?
+- Mention what is the difference between String and Symbol?<br>
   They both act in the same way only they differ in their behaviors which are opposite to each other. The difference lies in the object_id, memory and process tune when they are used together. Symbol belongs to the category of immutable objects whereas Strings are considered as mutable objects.
 
   - In Ruby string is mutable but a Symbol is immutable
@@ -201,7 +199,7 @@ These questions are collected from the Internet.
 
 ### Business Applications
 
-- What is Rack?
+- What is Rack?<br>
   Rack is an API sitting between the web server and Rails. It allows plugging in and swapping frameworks like Rails with Sinatra, or web servers like Unicorn with Puma.
 - Explain the Rack application interface.
 - Write a simple Rack application.
@@ -217,31 +215,30 @@ These questions are collected from the Internet.
 
 ## Rails and Web development
 
-- What is ActiveJob? When should we use it?
-  Allows creating background jobs and queuing them on a variety of back ends like Delayed::Job or Sidekiq.
+- What is ActiveJob? When should we use it?<br>
+  Allows creating background jobs and queuing them on a variety of back ends like Delayed::Job or Sidekiq.<br>
   It’s typically used to execute code that doesn’t need to be executed in the main web thread. A common use case is sending notification emails to users.
 
-- What is Asset Pipeline?
+- What is Asset Pipeline?<br>
   It’s a framework that prepares JavaScript and CSS for the browser.
 
 - Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types.
 
 - What is a Rails engine?
 
-- What are some Rails design patterns you’ve used?
+- What are some Rails design patterns you’ve used?<br>
   [7 Design Patterns to Refactor MVC Components in Rails](https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/)
   
-- What are initializers in Rails?
-
+- What are initializers in Rails?<br>
   Initializers hold configuration logic and only run when an app is booted. This means the Rails server needs to be restarted if initializers are changed. They exist in the `/config/initializers` directory.
   
-- What is Spring?
+- What is Spring?<br>
   Spring is an application preloader. It keeps the application running in the background so booting is not required any time you run a migration or rake task.
 
-- Mention what is Rails Migration?
+- Mention what is Rails Migration?<br>
   Rails Migration enables Ruby to make changes to the database schema, making it possible to use a version control system to leave things synchronized with the actual code.
 
-- Mention what is the function of garbage collection in Ruby on Rails?
+- Mention what is the function of garbage collection in Ruby on Rails?<br>
   The functions of garbage collection in Ruby on Rails includes
 
   - It enables the removal of the pointer values which is left behind when the execution of the program ends
@@ -256,20 +253,20 @@ These questions are collected from the Internet.
 - How should you use filters in controllers?
 - What are Strong Parameters?
 - What do we need to test in controllers?
-- How should you use **content_for** and **yield**?
-  [Rails what is the difference between content_for and yield?](https://stackoverflow.com/questions/13150983/rails-what-is-the-difference-between-content-for-and-yield)
+- How should you use **content_for** and **yield**?<br>
+  [Rails what is the difference between content_for and yield?](https://stackoverflow.com/questions/13150983/rails-what-is-the-difference-between-content-for-and-yield)<br>
   **content_for** allows defining and rendering content in views. This is useful for defining content in one place and rendering it in many.
 - How should you use nested layouts?
-- What logic goes into a helper?
-  Helper logic should support views only.
+- What logic goes into a helper?<br>
+  Helper logic should support views only.<br>
   A good candidate for a helper is date formatting logic required in several different views.
 
 ### Active Record
 
 - Explain the Active Record pattern.
 
-- What is Object-Relational Mapping?
-  Active Record is an ORM (object-relational mapping) that maps models to database tables. It simplifies setting up an app because we no longer have to write SQL directly to load, save, or delete objects.
+- What is Object-Relational Mapping?<br>
+  Active Record is an ORM (object-relational mapping) that maps models to database tables. It simplifies setting up an app because we no longer have to write SQL directly to load, save, or delete objects.<br>
   It also provides some protection against SQL injection.
   
 - Describe Active Record conventions.
@@ -278,8 +275,8 @@ These questions are collected from the Internet.
 
 - Describe types of associations in Active Record.
 
-- What is Scopes? How should you use it?
-  A scope is ActiveRecord query logic that you can define inside a model and call elsewhere.
+- What is Scopes? How should you use it?<br>
+  A scope is ActiveRecord query logic that you can define inside a model and call elsewhere.<br>
   Defining a scope can be useful rather than duplicating the same logic in many places in the app.
 
   ```ruby
@@ -301,13 +298,11 @@ These questions are collected from the Internet.
   - destroy: Deletes a record and executes callbacks.
   
 - What is the difference between find, find_by, and where in ActiveRecord?
-
   - find: Takes a single argument and looks up the record where the primary key matches that argument.
   - find_by: Takes key/values and returns the first matching record.
   - where: Takes key/values and returns a collection of matching records. Or an empty collection if there are no matches.
 
 - Mention what is the difference between the Observers and Callbacks in Ruby on Rails?
-
   - **Rails Observers:** Observers is same as Callback, but it is used when method is not directly associated to object lifecycle. Also, the observer lives longer, and it can be detached or attached at any time. For example, displaying values from a model in the UI and updating model from user input.
   - **Rails Callback:** Callbacks are methods, which can be called at certain moments of an object’s life cycle for example it can be called when an object is validated, created, updated, deleted, A call back is short lived. For example, running a thread and giving a call-back that is called when thread terminates
 
@@ -334,11 +329,11 @@ These questions are collected from the Internet.
 - What are your favorite tools to find code smells and potential bugs?
 - Why should you avoid fat controllers?
 - Why should you avoid fat models?
-- What is the meaning of “Fat models, skinny controllers”?
+- What is the meaning of “Fat models, skinny controllers”?<br>
   Business logic should exist in models, not controllers. This makes logic easier to unit test and is more re-usable.
   Controllers are merely the hands that pass information between views and models.
   This is generally given as advice to new Rails developers. It’s not actually recommended, particularly in large apps.
-- What is the meaning of “skinny controllers, skinny models”?
+- What is the meaning of “skinny controllers, skinny models”?<br>
   As a codebase grows, fat models get out of hand, start doing too many things and become unmanageable. Models should handle persistence without being bloated with logic.
   Models can be made skinnier by keeping the single responsibility principle in mind and moving logic out of models, and into other design patterns like service objects.
 - Explain extract Value, Service, Form, View, Query, and Policy Objects techniques.
