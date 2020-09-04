@@ -1,18 +1,19 @@
-"""
-From Problem Solving with Algorithms and Data Structures Using Python
-"""
 
-from pythonds.basic import Stack 
-def baseConverter(decNumber, base):
-    digits = "0123456789ABCDEF"
-    remstack = Stack()
-    while decNumber > 0:
-      rem = decNumber % base
-      remstack.push(rem)
-      decNumber = decNumber // base
+def DC_Conventer(num, base, **kwargs):
+    result = kwargs.get("result", [])
+
+    d_num = "0123456789ABCDEF"
+    d = num % base
+    result.append(d_num[d])
+
+    nd = num // base
     
-    newString = ""
-    while not remstack.isEmpty():
-      newString = newString + digits[remstack.pop()] 
-    
-    return newString
+    if nd > 0:
+        DC_Conventer(nd, base, result= result)
+    else:
+        print("".join(reversed(result)))
+
+
+DC_Conventer(10, 2)
+DC_Conventer(1000, 16)
+DC_Conventer(1000, 2)
