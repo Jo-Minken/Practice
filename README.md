@@ -12,6 +12,7 @@ My playground to record the practices of coding.
   - [Fibonacci Sequence and iterater](https://github.com/Jo-Minken/Practice/blob/master/Python/Fibonacci%20Sequence.py)
   - [Leibniz Formula](https://github.com/Jo-Minken/Practice/blob/master/Python/Leibniz%20Formula.py)
   - [Lucky Christians](https://github.com/Jo-Minken/Practice/blob/master/Python/Lucky%20Christians.py)
+  - [Decimal Conventer](https://github.com/Jo-Minken/Practice/blob/master/Python/Decimal%20Conventer.py)
 
 - Interview<br>
   List common interview questions collected from Internet

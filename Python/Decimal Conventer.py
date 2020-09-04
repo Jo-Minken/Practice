@@ -7,7 +7,8 @@ def baseConverter(decNumber, base):
     digits = "0123456789ABCDEF"
     remstack = Stack()
     while decNumber > 0:
-      rem = decNumber % base remstack.push(rem)
+      rem = decNumber % base
+      remstack.push(rem)
       decNumber = decNumber // base
     
     newString = ""
