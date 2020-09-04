@@ -18,6 +18,7 @@ My playground to record the practices of coding.
   - [Ruby and Rails](https://github.com/Jo-Minken/Practice/blob/master/Interview/Ruby%20and%20Rails.md)
 
 ## My Reading Record
+- 2020, Sep Python数据结构与算法分析 Problem Solving with Algorithms and Data Structures Using Python
 - 2020, Aug [A Common-Sense Guide To Data Structures and Algorithms](https://www.goodreads.com/book/show/34695800)
 - 2020, Jul [Beginning Django](https://www.goodreads.com/book/show/34569763)
 
